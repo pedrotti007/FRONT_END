@@ -1,0 +1,33 @@
+body {
+    text-size-adjust: 20px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: initial; 
+    border: none;
+    background-color: rgba(124, 114, 86, 0.747);
+}
+form {
+    color:rgb(255, 255, 255);
+    text-size-adjust: 100px;
+}
+
+#vrbgame + label{
+    font-weight: bold;
+    color: red;
+    font-family: Arial, sans-serif; /* Muda a fonte especificamente para este ID */
+}
+#atgame + label{
+    color:yellow;
+}
+#psgame + label{
+    color: blue;
+}
+#front + label{
+    color: cadetblue;
+}
+#int + label{
+    color:coral;
+}
+#BCD + label{
+    color:indianred
+}

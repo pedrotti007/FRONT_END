@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+     <meta charset="UTF-8">
+     <title>Formulário</title>
+     <link rel="stylesheet" href="git.css"> 
+ </head>
+ <body>
+     <form action="git.html" method="get" autocomplete="on">
+         <label for="nome">Nome:  </label>
+         <input type="text" name="nome" id="nome"
+         placeholder="Coloque seu nome aqui!"
+         maxlength="10">
+         
+         <br>
+         <label for="numero">Número: </label>
+         <input type="number" name="numero" id="numero">
+                <br>
+                <br>
+        <form action="">
+            <p>Data de Nascimento:</p>
+            <input type="datetime-local" name="data_time" id="" required> 
+        </form> <br>
+        
+                    <div id="radios">
+                        <label for="videogame">Radios de Videogame</label><br>
+
+                        <input type="radio" name="videogame" id="vrbgame" value="atari" checked>
+                        <label for="vrbgame">Atari</label> <br>  <!-- Label associada ao vrbgame -->
+            
+                        <input type="radio" name="videogame" id="atgame" value="snes">
+                        <label for="atgame">Snes</label> <br>
+                        
+                        <input type="radio" name="videogame" id="psgame" value="ps">
+                        <label for="psgame">PS</label> 
+                        
+                        <br>
+                        <br>
+                        
+                        <label for="disciplinas">Radios de Disciplinas</label> <br>
+
+                        <input type="radio" name="disciplinas" id="front"value="amelhor" checked> Tec Front
+                        <label for="front"></label> <br>
+                        
+                        <input type="radio" name="disciplinas" value="intro"> Introdução 
+                        <label for="int"></label> <br>
+                        
+                        <input type="radio" name="disciplinas" id="BCD"value="br"> Banco de Dados 
+                        <label for="BCD"></label>
+                                            
+                    </div>
+                <br>
+
+
+                    <div id="checkbox">
+                            <label type="text">Comidas</label><br>
+                            <label for="comida1"></label>
+                            <input type="checkbox" name="comida1" value="Feijao"id="checkbox_feijao">Feijao<br>
+
+                            <label for="comida2"></label>
+                            <input type="checkbox" name="comida2" value="Arroz" id="checkbox_arroz">Arroz<br>
+                            
+                            <label for="comida3"></label>
+                            <input type="checkbox" name="comida3" value="Batata" id="checkbox_batata">Batata<br>
+                    </div>
+                <br>
+                <br>
+                            <input type="checkbox" name="Contrato" value="Contrato Aceito!" id="Aceito" required >    
+                            <label for="comida1" > Você aceita os termos de contrato: <a href="">Termos</a></label>  
+                <br>
+                <br>
+                            <input type="submit">
+    </form>
+     
+ </body>
+ </html>
